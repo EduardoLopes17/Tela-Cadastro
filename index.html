@@ -6,10 +6,15 @@
     <title>Tela de Cadastro</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
+    <div class="container">
+
+        <h1>Cadastro de Aluno</h1>
+        <p>Preencha os dados abaixo para realizar o registro completo do aluno no sistema acadêmico.</p>
+
     <form class="row g-3">
         <div class="col-md-6">
             <label for="inputnome4" class="form-label">Nome Completo</label>
@@ -19,39 +24,37 @@
             <label for="inputCPF4" class="form-label">CPF</label>
             <input type="number" class="form-control" id="inputCPF4">
         </div>
-        </div>
+        
 
-        <div class="col-md-6">
+        <div class="col-md-4">
             <label for="inputData" class="form-label">Data de Nascimento</label>
             <input type="date" class="form-control" id="inputData">
         </div>
         <div class="col-md-4">
             <label for="inputTelefone" class="form-label">Telefone</label>
-            <input type="number" class="form-control" id="inputTelefone" placeholder="(XX)XXXX-XXXX">
+            <input type="number" class="form-control" id="inputTelefone" >
 
         </div>
-        <div class="col-md-2">
+        <div class="col-md-4">
             <label for="inputemail" class="form-label">E-mail</label>
             <input type="text" class="form-control" id="inputemail">
         </div>
 
         <div class="col-12">
             <label for="inputendereco" class="form-label">Endereço Completo</label>
-            <input type="text" class="form-control" id="inputendereco" placeholder="1234 Main St">
+            <input type="text" class="form-control" id="inputendereco"> 
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-4">
             <label for="inputCidade" class="form-label">Cidade</label>
             <input type="text" class="form-control" id="inputCidade">
         </div>
         <div class="col-md-4">
             <label for="inputEstado" class="form-label">Estado</label>
-            <select id="inputEstado" class="form-select">
-                <option selected>Ex.: Joinville</option>
-                <option></option>
-            </select>
+            <input type="text" class="form-control" id="inputEstado">
+            
         </div>
-        <div class="col-md-2">
+        <div class="col-md-4">
             <label for="inputCEP" class="form-label">CEP</label>
             <input type="text" class="form-control" id="inputCEP">
         </div>
@@ -64,8 +67,7 @@
             <label for="inputMatricula4" class="form-label">Matrícula</label>
             <input type="text" class="form-control" id="inputMatricula4">
         </div>
-        </div>
-
+        
         <div class="col-md-6">
             <label for="inputSenha4" class="form-label">Senha</label>
             <input type="text" class="form-control" id="inputSenha4">
@@ -74,13 +76,13 @@
             <label for="inputConfirmar4" class="form-label">Confirmar senha</label>
             <input type="text" class="form-control" id="inputConfirmar4">
         </div>
-        </div>
         
-        </div>
         <div class="col-12">
-            <button type="submit" class="btn btn-primary">Cadastro de Alune</button>
+            <button type="submit" class="btn btn-primary">Cadastro de Aluno</button>
+        </div>
         </div>
     </form>
+</div>
 </body>
 
 </html>
